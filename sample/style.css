@@ -1,0 +1,88 @@
+body{
+  margin: 0px;
+}
+
+#bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  right:0px;
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+#modal-CardEntry{
+  width: 500px;
+  /* height: 480px; */
+  /* display: none; */
+  background-color: rgba(255,255,255,1);
+}
+
+.Cancel{
+  /* float: right; */
+  position: absolute;
+  right: 0;
+  font-size: 30px;
+  font-weight: bold;
+  transform: rotate(45deg);
+  margin-right: 5px;
+  color: black;
+}
+
+.Title{
+  text-align: center;
+  width:100%;
+  color:teal;
+  margin-top:20px;
+}
+
+.Form{
+  padding: 10px 30px;
+}
+
+.Form .NameTextBox{
+  display:inline-table;
+  width: 46.6%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Form .NormalTextBox{
+  width:98%;
+  height: 28px;
+  margin-bottom: 10px;
+}
+
+#FilterSearch{
+  display: none;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#FindAll{
+  display: block;
+  margin: auto;
+}
+
+/* .Form .submit{
+  unset:all;
+  border:none;
+  color: white;
+  padding: 10px 85px;
+  background-color: darkblue;
+  font-weight: bold;
+} */
